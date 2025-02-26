@@ -22,5 +22,5 @@ function destructivelyPrependCat(name) {
     return cats.slice(0, -1);
   }
   function removeFirstCat() {
-    return cats.slice(1); // Creates a new array excluding the first element
+    return cats.slice(1);
   }
